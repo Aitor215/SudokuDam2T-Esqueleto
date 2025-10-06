@@ -1,0 +1,35 @@
+.CajaBotones {
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;                            
+    border: none;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#SudokuBoard{
+    display: grid;
+    grid-template: repeat(9, 50px) / repeat(9, 50px);
+    margin: 50px auto;
+    width: 450px;
+    height: 450px;
+}
+
+#SudokuBoard .cell {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #000;
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+}
