@@ -29,7 +29,7 @@ var solution = [
     //     const boton=document.createElement('div')
     //     boton.classList.add('numero')
     //     boton.textContent=n
-    // }
+    // 
 for (var filas = 0; filas < 9; filas++) {
     for (var columna = 0; columna < 9; columna++) {
         var cell = document.createElement('div')
